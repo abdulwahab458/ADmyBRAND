@@ -4,6 +4,7 @@ import Link from 'next/link';
 import * as Scroll from 'react-scroll';
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 
 const LinkScroll = Scroll.Link;
 
@@ -50,7 +51,7 @@ const Header = () => {
       <div className="flex items-center justify-between px-5 h-full">
         {/* Mobile Logo */}
         <Link href="/" className="lg:hidden cursor-pointer">
-          <img src="/logo.png" width={200} height={120} alt="Logo" className="mb-2" />
+          <Image src="/logo.png" width={200} height={120} alt="Logo" className="mb-2" />
         </Link>
 
         {/* Hamburger Icon */}
@@ -76,7 +77,7 @@ const Header = () => {
 
               <li className="mx-8">
                 <LinkScroll to="hero">
-                  <img src="/logo.png" width={200} height={55} alt="Logo" />
+                  <Image src="/logo.png" width={200} height={55} alt="Logo" />
                 </LinkScroll>
               </li>
 

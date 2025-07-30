@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect, useState } from "react";
+
 import { InfiniteMovingCards } from "@/components/infinite-moving-cards";
 import { Element } from "react-scroll";
 

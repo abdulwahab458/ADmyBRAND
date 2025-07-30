@@ -17,7 +17,7 @@ const Hero = () => {
               Revolutionizing advertising
             </h1>
             <p className='ml-5 md:ml-40 mb-14 md:mb-10 text-2xl text-gray-300'>
-              Simplifying advertising's complexity. Effortlessly unleash your brand across every channel.
+              Simplifying advertising&#39;s complexity. Effortlessly unleash your brand across every channel.
             </p>
 
             <LinkScroll to='features' offset={-100} spy smooth>

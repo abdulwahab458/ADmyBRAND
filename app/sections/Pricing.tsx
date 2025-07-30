@@ -76,7 +76,7 @@ const Pricing = () => {
                         </div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl mx-auto">
-                        {pricingPlans.map((plan, idx) => (
+                        {pricingPlans.map((plan) => (
                             <div
                                 key={plan.name}
                                 className={`rounded-3xl p-8 border-2 transition-all duration-300 flex flex-col items-center relative

@@ -12,7 +12,7 @@ type FaqsCardProps = {
   idx: number;
 };
 
-const FaqsCard: React.FC<FaqsCardProps> = ({ faqsList, idx }) => {
+const FaqsCard: React.FC<FaqsCardProps> = ({ faqsList}) => {
   const answerElRef = useRef<HTMLDivElement>(null);
   const [isOpen, setIsOpen] = useState(false);
   const [answerHeight, setAnswerHeight] = useState("0px");
