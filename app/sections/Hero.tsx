@@ -32,7 +32,7 @@ const Hero = () => {
             <img src="/hero.png" className='w-full h-auto opacity-60 md:opacity-90' alt="hero-image" />
           </div>
 
-          <div className='mt-50 md:mt-0 lg:mt-0'>
+          <div className='mt-50 md:mt-40 lg:mt-40'>
           {/* === LOGOS / TRUSTED BY === */}
           <div className="absolute bottom-48  left-6 md:left-40 z-10 flex flex-wrap gap-4 items-center opacity-80">
             <span className="text-sm text-gray-400 uppercase tracking-wide">Trusted by:</span>
