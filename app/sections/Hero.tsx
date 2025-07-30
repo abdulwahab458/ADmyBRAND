@@ -2,7 +2,7 @@
 import React from 'react'
 import { Element, Link as LinkScroll } from 'react-scroll'
 import { ShimmerButton } from "@/components/magicui/shimmer-button";
-
+import Image from 'next/image';
 const Hero = () => {
   return (
     <section className='relative pt-60 pb-40 max-lg:pt-52 max-lg:pb-36 max-md:pb-32 min-h-screen'>
@@ -29,10 +29,10 @@ const Hero = () => {
 
           {/* === HERO IMAGE === */}
           <div className='absolute -top-20 md:right-0 -right-[35%] w-[1230px] pointer-events-none'>
-            <img src="/hero.png" className='w-full h-auto opacity-60 md:opacity-90' alt="hero-image" />
+            <Image src="/hero.png" width={1200} height={800} className='w-full h-auto opacity-60 md:opacity-90' alt="hero-image" />
           </div>
 
-          <div className='mt-50 md:mt-40 lg:mt-40'>
+          <div className='mt-50 md:mt-60 lg:mt-60'>
           {/* === LOGOS / TRUSTED BY === */}
           <div className="absolute bottom-48  left-6 md:left-40 z-10 flex flex-wrap gap-4 items-center opacity-80">
             <span className="text-sm text-gray-400 uppercase tracking-wide">Trusted by:</span>
